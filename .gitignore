@@ -1,0 +1,53 @@
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de logs
+*.log
+
+# Archivos temporales o de desarrollo
+*.tmp
+*.out
+
+# binarios generados
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# binario del proyecto
+/my-api
+
+# carpetas de compilación
+bin/
+build/
+
+# módulos y dependencias generadas
+vendor/
+go.sum
+
+# Archivos y carpetas de herramientas
+.env
+.env.*
+.air.toml
+.air/
+.idea/
+.vscode/
+*.swp
+
+# Docker
+*.local
+docker-compose.override.yml
+
+# Archivos de test coverage
+coverage.out
+
+# Archivos de caché
+*.cache
+*.test
+
+# Archivos generados por IDEs
+*.iml
+*.ipr
+*.iws
